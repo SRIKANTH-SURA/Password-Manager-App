@@ -1,0 +1,92 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.password-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #b6c3ca;
+  border-radius: 10px;
+  margin: 0px 15px 15px 0px;
+  min-width: 280px;
+}
+
+.password-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.website-logo {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  /* background-color: #f59e0b; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.website-name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+
+.username,
+.password {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f8fafc;
+  margin: 5px 0px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  width: 35px;
+}
+
+.star-image {
+  width: 170px;
+  padding: 5px 0px;
+}
